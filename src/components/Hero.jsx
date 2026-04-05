@@ -46,7 +46,7 @@ const Hero = ({ onOpenModal }) => {
                 <div className="hero-elem">
                     <div className="bg-[#E8E4DD] border-4 border-black shadow-[6px_6px_0px_#111111] lg:shadow-[8px_8px_0px_#111111] rounded-2xl p-8 md:p-12 mb-16 max-w-3xl w-full text-center transition-all hover:shadow-[10px_10px_0px_#111111] hover:-translate-y-2">
                         <p className="text-black font-sans font-extrabold text-lg md:text-2xl lg:text-3xl leading-snug md:leading-relaxed">
-                        <span className="text-accent font-mono uppercase tracking-[0.2em] text-sm md:text-base mb-4 block font-black border-b-2 border-black/20 pb-4">The Guarantee</span>
+                        <span className="text-black font-mono uppercase tracking-widest text-xl md:text-3xl lg:text-4xl mb-6 block font-black border-b-4 border-black pb-4">The Guarantee</span>
                             We will remove at least 15 hours of manual work from your weekly operations within 2 months, or we'll work for free.
                         </p>
                     </div>
