@@ -43,9 +43,9 @@ const Hero = ({ onOpenModal }) => {
                 <p className="hero-elem text-lg md:text-xl font-sans font-normal text-content/95 drop-shadow-md max-w-2xl mb-8 leading-relaxed">
                     Most business owners are stuck acting as the 'glue' between their tools and their team. We partner with you to identify every repetitive manual task in your fulfillment and sales cycle and automate it out of existence.
                 </p>
-                <div className="hero-elem bg-base/40 border border-accent/20 rounded-2xl p-6 mb-12 max-w-2xl backdrop-blur-md">
-                    <p className="text-content/90 text-sm md:text-base font-sans font-medium leading-relaxed">
-                        <span className="text-accent font-mono uppercase tracking-widest text-xs mb-2 block font-bold">The Guarantee</span>
+                <div className="hero-elem bg-surface border-2 border-content shadow-[4px_4px_0px_#111111] rounded-xl p-6 md:p-8 mb-12 max-w-2xl w-full text-left md:text-center transition-all hover:shadow-[6px_6px_0px_#111111] hover:-translate-y-1">
+                    <p className="text-content font-sans font-bold text-base md:text-lg leading-relaxed">
+                        <span className="text-accent font-mono uppercase tracking-widest text-xs md:text-sm mb-3 block font-bold border-b border-content/10 pb-2">The Guarantee</span>
                         We will remove at least 15 hours of manual work from your weekly operations within 2 months, or we'll work for free.
                     </p>
                 </div>
