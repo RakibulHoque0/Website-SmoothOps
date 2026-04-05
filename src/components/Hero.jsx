@@ -43,11 +43,13 @@ const Hero = ({ onOpenModal }) => {
                 <p className="hero-elem text-lg md:text-xl font-sans font-normal text-content/95 drop-shadow-md max-w-2xl mb-8 leading-relaxed">
                     Most business owners are stuck acting as the 'glue' between their tools and their team. We partner with you to identify every repetitive manual task in your fulfillment and sales cycle and automate it out of existence.
                 </p>
-                <div className="hero-elem bg-[#E8E4DD] border-4 border-black shadow-[6px_6px_0px_#111111] lg:shadow-[8px_8px_0px_#111111] rounded-2xl p-8 md:p-12 mb-16 max-w-3xl w-full text-center transition-all hover:shadow-[10px_10px_0px_#111111] hover:-translate-y-2">
-                    <p className="text-black font-sans font-extrabold text-lg md:text-2xl lg:text-3xl leading-snug md:leading-relaxed">
-                        <span className="text-[#E63B2E] font-mono uppercase tracking-[0.2em] text-sm md:text-base mb-4 block font-black border-b-2 border-black/20 pb-4">The Guarantee</span>
-                        We will remove at least 15 hours of manual work from your weekly operations within 2 months, or we'll work for free.
-                    </p>
+                <div className="hero-elem">
+                    <div className="bg-[#E8E4DD] border-4 border-black shadow-[6px_6px_0px_#111111] lg:shadow-[8px_8px_0px_#111111] rounded-2xl p-8 md:p-12 mb-16 max-w-3xl w-full text-center transition-all hover:shadow-[10px_10px_0px_#111111] hover:-translate-y-2">
+                        <p className="text-black font-sans font-extrabold text-lg md:text-2xl lg:text-3xl leading-snug md:leading-relaxed">
+                            <span className="text-[#E63B2E] font-mono uppercase tracking-[0.2em] text-sm md:text-base mb-4 block font-black border-b-2 border-black/20 pb-4">The Guarantee</span>
+                            We will remove at least 15 hours of manual work from your weekly operations within 2 months, or we'll work for free.
+                        </p>
+                    </div>
                 </div>
                 <div className="hero-elem">
                     <button onClick={onOpenModal} className="magnetic-btn bg-accent text-base px-8 py-4 rounded-[2.5rem] font-sans font-semibold hover:scale-105 active:scale-95 transition-all text-lg flex items-center gap-3">
