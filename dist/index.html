@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmoothOps | Operational Mastery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-BiSwN2HL.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CUrxtUBN.css">
+  </head>
+  <body class="bg-base text-content antialiased overflow-x-hidden selection:bg-accent selection:text-base">
+    <!-- SVG Filter for Noise Overlay at 0.05 opacity -->
+    <svg style="display: none;">
+      <filter id="noise">
+        <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/>
+      </filter>
+    </svg>
+    <div class="pointer-events-none fixed inset-0 z-50 h-full w-full opacity-5 mix-blend-overlay" style="filter: url(#noise);"></div>
+
+    <div id="root"></div>
+  </body>
+</html>
